@@ -23,7 +23,7 @@ public class Day1_Boj14697_박원석 {
 		// n명 가능 여부 확인
 		for (int i = 0; i < 3; i++) {
 			for (int j = beds[i]; j <= n; j++) {
-				if (possible[j - beds[i]] == 1)
+				if (possible[j] == 0 && possible[j - beds[i]] == 1)
 					possible[j] = 1;
 			}
 		}
