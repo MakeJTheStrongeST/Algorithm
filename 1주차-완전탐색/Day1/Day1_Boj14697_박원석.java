@@ -8,7 +8,7 @@ public class Day1_Boj14697_박원석 {
 		int[] beds = new int[3]; // 방의 정원
 		int n; // 학생 수
 		int[] possible; // n명 분배 가능 -> possible[n] = 1
-						// n명 분배 불가능 -> possible[n] = 0
+				// n명 분배 불가능 -> possible[n] = 0
 
 		// 초기화
 		for (int i = 0; i < 3; i++) {
