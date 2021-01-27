@@ -1,0 +1,1 @@
+- [숫자 조각](https://www.acmicpc.net/problem/14629)
