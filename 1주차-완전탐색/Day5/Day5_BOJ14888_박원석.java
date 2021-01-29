@@ -30,31 +30,31 @@ public class Day5_BOJ14888_박원석 {
 	
 	static void DFS(int level, int result) {
 		if(level == n){
-	        if(result > maxRes) maxRes = result;
-	        if(result < minRes) minRes = result;
-	    }
-	    else{
-	        if(op[0] > 0){
-	            op[0]--;
-	            DFS(level + 1, result + num[level]);
-	            op[0]++;
-	        }
-	        if(op[1] > 0){
-	            op[1]--;
-	            DFS(level + 1, result - num[level]);
-	            op[1]++;
-	        }
-	        if(op[2] > 0){
-	            op[2]--;
-	            DFS(level + 1, result * num[level]);
-	            op[2]++;
-	        }
-	        if(op[3] > 0){
-	            op[3]--;
-	            DFS(level + 1, result / num[level]);
-	            op[3]++;
-	        }
-	    }
+			if(result > maxRes) maxRes = result;
+			if(result < minRes) minRes = result;
+		}
+		else{
+			if(op[0] > 0){
+				op[0]--;
+			    	DFS(level + 1, result + num[level]);
+			    	op[0]++;
+			}
+			if(op[1] > 0){
+			   	op[1]--;
+			    	DFS(level + 1, result - num[level]);
+			    	op[1]++;
+			}
+			if(op[2] > 0){
+			    	op[2]--;
+			    	DFS(level + 1, result * num[level]);
+			    	op[2]++;
+			}
+			if(op[3] > 0){
+			    	op[3]--;
+			    	DFS(level + 1, result / num[level]);
+			    	op[3]++;
+			}
+	    	}
 	}
 	
 	static void output() {
