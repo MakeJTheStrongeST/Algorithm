@@ -9,3 +9,7 @@
 - Day3 : [숫자 조각](https://www.acmicpc.net/problem/14629)  
 - Day4 : [리모컨](https://www.acmicpc.net/problem/1107)  
 - Day5 : [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)  
+
+## 2주차 - 스택,큐,우선순위 큐  
+- Day1 : [괄호](https://www.acmicpc.net/problem/9012)  
+
