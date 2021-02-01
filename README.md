@@ -1,4 +1,4 @@
-# Algorithm
+# 알고리즘 스터디  
 
 ## 참고자료  
 - [알고리즘 블로그](http://blog.naver.com/PostList.nhn?blogId=kks227&from=postList&categoryNo=299)  
@@ -13,3 +13,10 @@
 ## 2주차 - 스택,큐,우선순위 큐  
 - Day1 : [괄호](https://www.acmicpc.net/problem/9012)  
 
+
+---  
+
+# 싸피  
+
+## 1주차  
+- Day1 : [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478), [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)  
