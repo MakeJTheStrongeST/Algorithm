@@ -26,4 +26,5 @@
 # 쓸만한 기술들  
 
 - 숫자 이어붙이기 : [더하기 싸이클](https://www.acmicpc.net/problem/1110)  
+- 진법 변환 : [2진수 8진수](https://www.acmicpc.net/problem/1373)
 
