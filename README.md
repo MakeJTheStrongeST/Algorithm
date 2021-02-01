@@ -20,3 +20,10 @@
 
 ## 1주차  
 - Day1 : [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478), [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)  
+
+---  
+
+# 테크닉 (다른 문제들에도 사용되는 기술들)  
+
+- 숫자 이어붙이기 : [더하기 싸이클](https://www.acmicpc.net/problem/1110)  
+
