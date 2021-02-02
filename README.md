@@ -20,6 +20,7 @@
 
 ## 1주차  
 - Day1 : [재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478), [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)  
+- Day2 : [Flatten](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh), [달팽이 숫자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq)  
 
 ---  
 
