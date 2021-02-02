@@ -44,7 +44,6 @@ public class Main {
 					j++;
 					
 				}
-
 			}
 		}
 		//출력
