@@ -61,5 +61,4 @@ public class NGF {
 		}
 		System.out.println(sb);
 	}
-
 }
