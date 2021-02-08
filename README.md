@@ -17,6 +17,9 @@
 - Day4 : [세훈이의 선물가게](https://www.acmicpc.net/problem/17225)  
 - Day5 : [과제는 끝나지 않아](https://www.acmicpc.net/problem/17952)
 
+## 3주차 - 트리
+- Day1 : [트리 순회](https://www.acmicpc.net/problem/1991)
+
 
 ---  
 
