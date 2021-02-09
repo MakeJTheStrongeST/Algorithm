@@ -18,7 +18,9 @@
 - Day5 : [과제는 끝나지 않아](https://www.acmicpc.net/problem/17952)
 
 ## 3주차 - 트리
-- Day1 : [트리 순회](https://www.acmicpc.net/problem/1991)
+- Day1 : [트리 순회](https://www.acmicpc.net/problem/1991)  
+- Day2 : [나무 탈출](https://www.acmicpc.net/problem/15900)  
+
 
 
 ---  
