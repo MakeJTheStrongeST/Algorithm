@@ -1,1 +1,1 @@
-- [나무 ](https://www.acmicpc.net/problem/15900)
+- [나무 탈출](https://www.acmicpc.net/problem/15900)
