@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Day2_15900_³ª¹«Å»Ãâ_¹Ú¿ø¼® {
+public class Day2_15900_ë‚˜ë¬´íƒˆì¶œ_ë°•ì›ì„ {
 	static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static ArrayList<ArrayList<Integer>> tree = new ArrayList<>();
@@ -14,28 +14,28 @@ public class Day2_15900_³ª¹«Å»Ãâ_¹Ú¿ø¼® {
 	static boolean[] ch;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		N = Integer.parseInt(in.readLine()); // Á¤Á¡ °³¼ö
+		N = Integer.parseInt(in.readLine()); // ì •ì  ê°œìˆ˜
 		for (int i = 0; i <= N; i++)
-			tree.add(new ArrayList<Integer>()); // ¸®½ºÆ® ¾È¿¡ N + 1°³ÀÇ ºñ¾î ÀÖ´Â ¸®½ºÆ®¸¦ ÀúÀåÇÑ´Ù.
-												// ÀÎÁ¢¸®½ºÆ®·Î Æ®¸® ±¸Çö
-		ch = new boolean[N + 1]; // ºÎ¸ğ ³ëµå·Î °¡´Â °ÍÀ» ¹æÁöÇÏ±â À§ÇØ ¹æ¹® Ã¼Å© (¾ç¹æÇâÀ¸·Î °£¼±À» ¿¬°áÇØ¼­...)
+			tree.add(new ArrayList<Integer>()); // ë¦¬ìŠ¤íŠ¸ ì•ˆì— N + 1ê°œì˜ ë¹„ì–´ ìˆëŠ” ë¦¬ìŠ¤íŠ¸ë¥¼ ì €ì¥í•œë‹¤.
+							    // ì¸ì ‘ë¦¬ìŠ¤íŠ¸ë¡œ íŠ¸ë¦¬ êµ¬í˜„
+		ch = new boolean[N + 1]; // ë¶€ëª¨ ë…¸ë“œë¡œ ê°€ëŠ” ê²ƒì„ ë°©ì§€í•˜ê¸° ìœ„í•´ ë°©ë¬¸ ì²´í¬ (ì–‘ë°©í–¥ìœ¼ë¡œ ê°„ì„ ì„ ì—°ê²°í•´ì„œ...)
 
-		// ³ëµå ¿¬°á
+		// ë…¸ë“œ ì—°ê²°
 		for (int i = 0; i < N - 1; i++) {
 			st = new StringTokenizer(in.readLine(), " ");
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 
-			// ¾ç¹æÇâ ¿¬°á
+			// ì–‘ë°©í–¥ ì—°ê²°
 			tree.get(b).add(a);
 			tree.get(a).add(b);
 		}
 
-		ch[1] = true; // ·çÆ® 1ºÎÅÍ ½ÃÀÛÇÏ¹Ç·Î ¹æ¹® Ã¼Å©
+		ch[1] = true; // ë£¨íŠ¸ 1ë¶€í„° ì‹œì‘í•˜ë¯€ë¡œ ë°©ë¬¸ ì²´í¬
 		DFS(1, 0);
 		
-		// ¸®ÇÁ³ëµåµéÀÇ ³ôÀÌ ÇÕÀÌ È¦¼ö¿©¾ß ¼º¿øÀÌ°¡ ÀÌ±æ ¼ö ÀÖÀ½
-		// ¸®ÇÁ³ëµå¿¡¼­ ·çÆ®±îÁö ÀÏÁ÷¼±À¸·Î °£´Ù°í »ı°¢ÇÏ¸é µÊ
+		// ë¦¬í”„ë…¸ë“œë“¤ì˜ ë†’ì´ í•©ì´ í™€ìˆ˜ì—¬ì•¼ ì„±ì›ì´ê°€ ì´ê¸¸ ìˆ˜ ìˆìŒ
+		// ë¦¬í”„ë…¸ë“œì—ì„œ ë£¨íŠ¸ê¹Œì§€ ì¼ì§ì„ ìœ¼ë¡œ ê°„ë‹¤ê³  ìƒê°í•˜ë©´ ë¨
 		if (totalCnt % 2 != 0)
 			System.out.println("Yes");
 		else
@@ -43,19 +43,19 @@ public class Day2_15900_³ª¹«Å»Ãâ_¹Ú¿ø¼® {
 	}
 
 	static void DFS(int v, int cnt) {
-		// ¸®ÇÁ³ëµåÀÎ °æ¿ì ³ôÀÌ¸¦ Ä«¿îÆÃÇÏ°í Àç±Í¸¦ Á¾·áÇÑ´Ù.
-		// ¸®ÇÁ³ëµå´Â ºÎ¸ğ³ëµå¸¸ ÀÖ´Â °æ¿ìÀÌ´Ù.
+		// ë¦¬í”„ë…¸ë“œì¸ ê²½ìš° ë†’ì´ë¥¼ ì¹´ìš´íŒ…í•˜ê³  ì¬ê·€ë¥¼ ì¢…ë£Œí•œë‹¤.
+		// ë¦¬í”„ë…¸ë“œëŠ” ë¶€ëª¨ë…¸ë“œë§Œ ìˆëŠ” ê²½ìš°ì´ë‹¤.
 		if (tree.get(v).size() == 1 && ch[tree.get(v).get(0)]) {
 			totalCnt += cnt;
 			return;
 		}
 
-		// ±íÀÌ ¿ì¼± Å½»ö
+		// ê¹Šì´ ìš°ì„  íƒìƒ‰
 		for (int i = 0; i < tree.get(v).size(); i++) {
-			if (!ch[tree.get(v).get(i)]) { // ¹æ¹®ÇÏÁö ¾ÊÀº ³ëµå¸¸ Å½»ö(=ÀÚ½Ä ³ëµå·Î¸¸ Å½»ö)
-				ch[tree.get(v).get(i)] = true; // ´ÙÀ½ ³ëµå¿¡¼­ ºÎ¸ğ ³ëµå·Î °¡Áö ¾Ê±â À§ÇÑ ¹æ¹® Ã¼Å©
-				DFS(tree.get(v).get(i), cnt + 1); // ´ÙÀ½ ³ëµå·Î Å½»öÇØ ³ª°£´Ù.
-				ch[tree.get(v).get(i)] = false; // ´ÙÀ½ ÀÚ½Ä³ëµå¸¦ Å½»öÇØ³ª°¡±â À§ÇØ ¹æ¹® Ã¼Å© ÇØÁ¦
+			if (!ch[tree.get(v).get(i)]) { // ë°©ë¬¸í•˜ì§€ ì•Šì€ ë…¸ë“œë§Œ íƒìƒ‰(=ìì‹ ë…¸ë“œë¡œë§Œ íƒìƒ‰)
+				ch[tree.get(v).get(i)] = true; // ë‹¤ìŒ ë…¸ë“œì—ì„œ ë¶€ëª¨ ë…¸ë“œë¡œ ê°€ì§€ ì•Šê¸° ìœ„í•œ ë°©ë¬¸ ì²´í¬
+				DFS(tree.get(v).get(i), cnt + 1); // ë‹¤ìŒ ë…¸ë“œë¡œ íƒìƒ‰í•´ ë‚˜ê°„ë‹¤.
+				ch[tree.get(v).get(i)] = false; // ë‹¤ìŒ ìì‹ë…¸ë“œë¥¼ íƒìƒ‰í•´ë‚˜ê°€ê¸° ìœ„í•´ ë°©ë¬¸ ì²´í¬ í•´ì œ
 			}
 		}
 	}
