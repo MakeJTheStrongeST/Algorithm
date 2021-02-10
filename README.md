@@ -36,6 +36,8 @@
 
 ## 2주차
 - Day1 : [암호문](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14w-rKAHACFAYD&categoryId=AV14w-rKAHACFAYD&categoryType=CODE&problemTitle=%EC%95%94%ED%98%B8%EB%AC%B81&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1), [한빈이와 Spot Mart](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW8Wj7cqbY0DFAXN&categoryId=AW8Wj7cqbY0DFAXN&categoryType=CODE&problemTitle=%ED%95%9C%EB%B9%88%EC%9D%B4&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
+- Day2 : [요세푸스 문제](https://www.acmicpc.net/problem/1158), [색종이](https://www.acmicpc.net/problem/2563)
+- Day3 : [배열 돌리기1](https://www.acmicpc.net/problem/16926), [배열 돌리기3](https://www.acmicpc.net/problem/16935), [사칙 연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD&categoryId=AV141176AIwCFAYD&categoryType=CODE&problemTitle=%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
 
 
 ---  
