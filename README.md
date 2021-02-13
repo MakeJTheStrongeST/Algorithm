@@ -20,6 +20,7 @@
 ## 3주차 - 트리
 - Day1 : [트리 순회](https://www.acmicpc.net/problem/1991)  
 - Day2 : [나무 탈출](https://www.acmicpc.net/problem/15900)  
+- Day3 : [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892?language=java)  
 
 
 
