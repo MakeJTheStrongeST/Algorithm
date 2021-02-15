@@ -22,6 +22,9 @@
 - Day2 : [나무 탈출](https://www.acmicpc.net/problem/15900)  
 - Day3 : [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892?language=java)  
 
+## 4주차 - 완전탐색, 그리디, 분할정복, 백트래킹
+- Day1 : [회의실 배정](https://www.acmicpc.net/problem/1931)
+
 
 
 ---  
