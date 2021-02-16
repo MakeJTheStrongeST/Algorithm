@@ -3,11 +3,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Boj_1931 {
-	static int N, cnt, ans;
-	static int max = Integer.MIN_VALUE;
+	static int N, cnt=1;
 	static int[][] input, result;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -22,30 +22,27 @@ public class Boj_1931 {
 			st = new StringTokenizer(br.readLine(), " ");
 			input[i] = new int[] {Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())};
 		}
-		Arrays.sort(input,(a1,a2)->a1[0]-a2[0]);
-//		for(int[] arr : input) {
-//			System.out.println(Arrays.toString(arr));
-//		}
-		for(int i=0;i<N;i++) {
-			select(0,i);
-		}
-		System.out.println(max);
-	}
-	private static void select(int cnt, int start) {
-		
-		if(start == N) {
-			for(int i=0;i<cnt;i++) {
-				System.out.print(result[i][0]+" "+result[i][1]);
-				System.out.println();
+		Arrays.sort(input,new Comparator<int[]>() {
+			@Override
+			public int compare(int[] o1, int[] o2) {
+				int num = o1[1]-o2[1];
+				return (num!=0)?num:o1[0]-o2[0];
 			}
-			max = Math.max(max, cnt);
-			return;
+		});
+		for(int[] arr: input) {
+			System.out.print(arr[0] + " "+arr[1]);
+			System.out.println();
 		}
-		if(start!=0 && cnt!=0 && input[start][0]<result[cnt-1][1]) {
-			select(cnt, start+1);
-		}else {
-			result[cnt] = input[start];
-			select(cnt+1, start+1);
+		select();
+		System.out.println(cnt);
+	}
+	private static void select() {
+		result[0] = input[0];
+		for(int i=1;i<N;i++) {
+			if(input[i][0]>=result[cnt-1][1]) {
+				result[cnt] = input[i];
+				cnt++;
+			}
 		}
 	}
 }
