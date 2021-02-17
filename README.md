@@ -44,9 +44,9 @@
 - Day3 : [배열 돌리기1](https://www.acmicpc.net/problem/16926), [배열 돌리기3](https://www.acmicpc.net/problem/16935), [사칙 연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD&categoryId=AV141176AIwCFAYD&categoryType=CODE&problemTitle=%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
 
 ## 3주차
-- Day1 : [규영이와 인영이의 카드게임](),[백설공주와 일곱난장이]()  
-- Day2 : [냉장고](),[설탕배달](),[Z]()  
-- Day3 : [치킨배달](),[캐슬디펜스](),[쿼드 트리]()  
+- Day1 : [규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0&categoryId=AWgv9va6HnkDFAW0&categoryType=CODE&problemTitle=%EA%B7%9C%EC%98%81%EC%9D%B4&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1),[백설공주와 일곱 난장이](https://www.acmicpc.net/problem/3040)  
+- Day2 : [냉장고](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1101&sca=99&sfl=wr_hit&stx=1828),[설탕 배달](https://www.acmicpc.net/problem/2839),[Z](https://www.acmicpc.net/problem/1074)  
+- Day3 : [치킨 배달](https://www.acmicpc.net/problem/15686),[캐슬 디펜스](https://www.acmicpc.net/problem/17135),[쿼드 트리](https://www.acmicpc.net/problem/1992)  
 
 ---  
 
