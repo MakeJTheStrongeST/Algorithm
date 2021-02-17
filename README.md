@@ -43,6 +43,10 @@
 - Day2 : [요세푸스 문제](https://www.acmicpc.net/problem/1158), [색종이](https://www.acmicpc.net/problem/2563)
 - Day3 : [배열 돌리기1](https://www.acmicpc.net/problem/16926), [배열 돌리기3](https://www.acmicpc.net/problem/16935), [사칙 연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD&categoryId=AV141176AIwCFAYD&categoryType=CODE&problemTitle=%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
 
+## 3주차
+- Day1 : [규영이와 인영이의 카드게임](),[백설공주와 일곱난장이]()  
+- Day2 : [냉장고](),[설탕배달](),[Z]()  
+- Day3 : [치킨배달](),[캐슬디펜스](),[쿼드 트리]()  
 
 ---  
 
