@@ -23,7 +23,11 @@
 - Day3 : [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892?language=java)  
 
 ## 4주차 - 완전탐색, 그리디, 분할정복, 백트래킹
-- Day1 : [회의실 배정](https://www.acmicpc.net/problem/1931)
+- Day1 : [회의실 배정](https://www.acmicpc.net/problem/1931)  
+- Day2 : [종이의 개수](https://www.acmicpc.net/problem/1780)  
+- Day3 : [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)  
+- Day4 : [가르침](https://www.acmicpc.net/problem/1062)  
+- 
 
 
 
@@ -47,6 +51,9 @@
 - Day1 : [규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0&categoryId=AWgv9va6HnkDFAW0&categoryType=CODE&problemTitle=%EA%B7%9C%EC%98%81%EC%9D%B4&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1),[백설공주와 일곱 난장이](https://www.acmicpc.net/problem/3040)  
 - Day2 : [냉장고](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1101&sca=99&sfl=wr_hit&stx=1828),[설탕 배달](https://www.acmicpc.net/problem/2839),[Z](https://www.acmicpc.net/problem/1074)  
 - Day3 : [치킨 배달](https://www.acmicpc.net/problem/15686),[캐슬 디펜스](https://www.acmicpc.net/problem/17135),[쿼드 트리](https://www.acmicpc.net/problem/1992)  
+- Day4 : [빵집](https://www.acmicpc.net/problem/3109),[](https://www.acmicpc.net/problem/1987)  
+- 
+
 
 ---  
 
