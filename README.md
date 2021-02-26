@@ -27,9 +27,13 @@
 - Day2 : [종이의 개수](https://www.acmicpc.net/problem/1780)  
 - Day3 : [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)  
 - Day4 : [가르침](https://www.acmicpc.net/problem/1062)  
-- 
+- Day5 : [스도쿠](https://www.acmicpc.net/problem/2580)
 
-
+## 5주차 - 이분탐색
+- Day1 : [수 찾기](https://www.acmicpc.net/problem/1920)
+- Day2 : [두 용액](https://www.acmicpc.net/problem/2470)
+- Day3 : [나무 자르기](https://www.acmicpc.net/problem/2805)
+- Day4 : [제자리 멀리뛰기](https://www.acmicpc.net/problem/6209)
 
 ---  
 
