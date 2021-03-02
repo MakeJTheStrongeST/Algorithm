@@ -35,6 +35,9 @@
 - Day3 : [나무 자르기](https://www.acmicpc.net/problem/2805)
 - Day4 : [제자리 멀리뛰기](https://www.acmicpc.net/problem/6209)
 
+## 6주차 - 투포인터
+- Day1 : [두 수의 합](https://www.acmicpc.net/problem/3273)
+
 ---  
 
 # 싸피  
