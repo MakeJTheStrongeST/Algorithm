@@ -37,6 +37,8 @@
 
 ## 6주차 - 투포인터
 - Day1 : [두 수의 합](https://www.acmicpc.net/problem/3273)
+- Day2 : [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)
+- Day3 : [도둑](https://www.acmicpc.net/problem/13422)
 
 ---  
 
