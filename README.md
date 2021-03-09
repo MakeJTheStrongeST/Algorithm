@@ -41,6 +41,9 @@
 - Day3 : [도둑](https://www.acmicpc.net/problem/13422)
 - Day4 : [회전 초밥](https://www.acmicpc.net/problem/2531)
 
+## 7주차 - 다익스트라, 플로이드워셜
+- Day1 : [최단경로](https://www.acmicpc.net/problem/1753)
+- Day2 : [역사](https://www.acmicpc.net/problem/1613)
 
 ---  
 
