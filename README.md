@@ -44,6 +44,13 @@
 ## 7주차 - 다익스트라, 플로이드워셜
 - Day1 : [최단경로](https://www.acmicpc.net/problem/1753)
 - Day2 : [역사](https://www.acmicpc.net/problem/1613)
+- Day3 : [플로이드](https://www.acmicpc.net/problem/11404)
+- Day4 : [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
+
+## 8주차 - 문자열, 구현
+- Day1 : [생태학](https://www.acmicpc.net/problem/4358)
+- Day2 : [치즈](https://www.acmicpc.net/problem/2638)
+
 
 ---  
 
