@@ -20,14 +20,13 @@ public class Day1_BOJ5525_박원석 {
 		// KMP(Knuth–Morris–Pratt) algorithm
 		// Create fail function 
 		int[] fail = new int[pLength];
-	    for(int i=1, j=0; i<pLength; i++){
-	        while(j > 0 && pattern[i] != pattern[j]) {
-	        	j = fail[j-1];  
-	        }
-	        if(pattern[i] == pattern[j]) fail[i] = ++j;
-	    }
+	    	for(int i=1, j=0; i<pLength; i++){
+			while(j > 0 && pattern[i] != pattern[j]) 
+				j = fail[j-1];  
+			if(pattern[i] == pattern[j]) fail[i] = ++j;
+		}
 	    
-	    int cnt = 0;
+	    	int cnt = 0;
 		// i : text pointer , j: pattern pointer 
 		for(int i=0,j=0; i<tLength; ++i) { 
 			while(j>0 && text[i] != pattern[j]) j = fail[j-1]; 
