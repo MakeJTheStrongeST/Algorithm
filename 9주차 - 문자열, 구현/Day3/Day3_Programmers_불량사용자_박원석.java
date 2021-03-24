@@ -2,16 +2,16 @@ package week9;
 
 import java.util.HashSet;
 
-public class Day3_Programmers_ºÒ·®»ç¿ëÀÚ_¹Ú¿ø¼® {
+public class Day3_Programmers_ÂºÃ’Â·Â®Â»Ã§Â¿Ã«Ã€Ãš_Â¹ÃšÂ¿Ã¸Â¼Â® {
 	final static String[][] user_id = {{"frodo", "fradi", "crodo", "abc123", "frodoc"},
-			  					 {"frodo", "fradi", "crodo", "abc123", "frodoc"},
-			  					 {"frodo", "fradi", "crodo", "abc123", "frodoc"}};
+			  		   {"frodo", "fradi", "crodo", "abc123", "frodoc"},
+			  		   {"frodo", "fradi", "crodo", "abc123", "frodoc"}};
 	final static String[][] banned_id = {{"fr*d*", "abc1**"},
-								   {"*rodo", "*rodo", "******"},
-								   {"fr*d*", "*rodo", "******", "******"}};
+					     {"*rodo", "*rodo", "******"},
+					     {"fr*d*", "*rodo", "******", "******"}};
 	
 	static int uLen, bLen;
-    static HashSet<Integer> set;
+    	static HashSet<Integer> set;
 	
 	public static void main(String[] args) {
 		for(int tc = 0; tc < 3; tc++) {
